@@ -26,7 +26,7 @@ class Solution:
 
         for i in range(0, len(nums)):
             num = nums[i]
-            if str(num) in hashmap:
+            if str(num) in hashmap: 
                 return True
             else:
                 hashmap[str(num)] = True
